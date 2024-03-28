@@ -29,7 +29,7 @@ const PesquisarCep = () =>{
         <div>
             <div className='layout_pesquisa'>
                 <input type="text" value={Cep} onChange={BuscarCep} />
-                <input type="button" value="Pesquisar" onClick={EncontrarEndereco} />
+                <input type="button" value="Pesquisar" onClick={EncontrarEndereco}/>
             </div>
             <div className='layout_conteudo'>
                 <ul>

@@ -1,3 +1,15 @@
+.layout_pesquisa{
+    display: flex;
+    gap: 5px;
+}
+
+.layout_pesquisa input{
+    width: 200px;
+    height: 30px;
+}
+
+
+
 .layout_conteudo ul li{
     list-style: none;
 }
