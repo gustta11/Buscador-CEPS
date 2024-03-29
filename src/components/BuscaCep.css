@@ -4,15 +4,18 @@
 }
 
 .button_pesquisar{
-    border: 0.5px solid;
-    border-radius: 10px;
-    background-color:#ffffff71 ;
+
+    background-color:#024959;
+    color: white;
     
 }
 
 .layout_pesquisa input{
     width: 200px;
     height: 30px;
+    border-radius: 10px;
+    border: 0.5px solid;
+    border-color: black;
 }
 
 
