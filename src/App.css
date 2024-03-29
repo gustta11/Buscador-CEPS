@@ -35,4 +35,7 @@
 .footer{
   grid-area: F;
   background-color: #024959;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

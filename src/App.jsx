@@ -1,6 +1,7 @@
 import './App.css'
 import PesquisarCep from './components/BuscaCep'
 import NavBar from './layout/Nav.jsx'
+import Footer from './layout/Footer.jsx'
 function App() {
   
 
@@ -16,7 +17,7 @@ function App() {
       </div>
 
       <div className='footer'>
-      
+        <Footer/>
       </div>
     </div>
   )
