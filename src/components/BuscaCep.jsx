@@ -26,19 +26,19 @@ const PesquisarCep = () =>{
 
 
     return(
-        <div>
+        <div className='div_geral_pesquisa'>
             <div className='layout_pesquisa'>
-                <input type="text" value={Cep} onChange={BuscarCep} />
+                <input type="text" value={Cep} onChange={BuscarCep} placeholder='Digite aqui'/>
                 <input type="button" value="Pesquisar" onClick={EncontrarEndereco} className='button_pesquisar'/>
             </div>
-            <div className='layout_conteudo'>
-                <ul>
-                    <li>{Endereco.cep}</li>
-                    <li>{Endereco.logradouro}</li>
-                    <li>{Endereco.bairro}</li>
-                    <li>{Endereco.localidade}</li>
-                    <li>{Endereco.uf}</li>
-                </ul>
+            <div className='layout_conteudo'>  
+                        <ul>
+                            <li>{Endereco.cep}</li>
+                            <li>{Endereco.logradouro}</li>
+                            <li>{Endereco.bairro}</li>
+                            <li>{Endereco.localidade}</li>
+                            <li>{Endereco.uf}</li>
+                        </ul>
             </div>
         </div>
     )

@@ -1,3 +1,10 @@
+.div_geral_pesquisa{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
 .layout_pesquisa{
     display: flex;
     gap: 5px;
@@ -16,6 +23,7 @@
     border-radius: 10px;
     border: 0.5px solid;
     border-color: black;
+    text-align: center;
 }
 
 
@@ -29,4 +37,11 @@
     gap: 16px;
     flex-direction: column;
     padding: 16px 24px;
+   
+}
+
+.layout_conteudo:hover{
+    background-color: #593e25ea;
+    border-radius: 10px;
+    color: white;
 }
