@@ -3,6 +3,13 @@
     gap: 5px;
 }
 
+.button_pesquisar{
+    border: 0.5px solid;
+    border-radius: 10px;
+    background-color:#ffffff71 ;
+    
+}
+
 .layout_pesquisa input{
     width: 200px;
     height: 30px;

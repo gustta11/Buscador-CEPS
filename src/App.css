@@ -18,6 +18,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #024959;
+  color: white;
 }
 
 .main{
@@ -26,9 +28,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #F2AE30;
 
 }
 
 .footer{
   grid-area: F;
+  background-color: #024959;
 }
