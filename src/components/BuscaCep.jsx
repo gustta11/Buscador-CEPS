@@ -22,9 +22,6 @@ const PesquisarCep = () =>{
 
         }
 
-        
-
-
     return(
         <div className='div_geral_pesquisa'>
             <div className='layout_pesquisa'>
