@@ -33,11 +33,11 @@ const PesquisarCep = () =>{
             </div>
             <div className='layout_conteudo'>  
                         <ul>
-                            <li>{Endereco.cep}</li>
-                            <li>{Endereco.logradouro}</li>
-                            <li>{Endereco.bairro}</li>
-                            <li>{Endereco.localidade}</li>
-                            <li>{Endereco.uf}</li>
+                            <li>CEP:{Endereco.cep}</li>
+                            <li>LOGRADOURO:{Endereco.logradouro}</li>
+                            <li>BAIRRO:{Endereco.bairro}</li>
+                            <li>CIDADE:{Endereco.localidade}</li>
+                            <li>ESTADO:{Endereco.uf}</li>
                         </ul>
             </div>
         </div>
